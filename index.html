@@ -4,14 +4,65 @@
 <meta charset="utf-8">
 <title>Helen's Final Project</title>
 <meta name-"description" content="HTML5 Template">
+<link href="hl_races.css" rel="stylesheet"  />
 <script src="hl_races.js" defer></script>
-</head>
 
-<body>
-<p>The start of my final project</p>
+<div class="stopLight">
+
+	<div class ="circle" color="red"></div>
+	<div class ="circle" color="yellow"></div>
+	<div class ="circle" color="green"></div>
+
+</div>
 
 <img src="vampire.png" alt="Vampire" id="p1Img" /> 
 <img src="werewolf.png" alt="Werewolf" id="p2Img" /> 
+
+
+</head>
+<style>
+#raceTrack {
+  width: 2000px;
+  height: 1000px;
+  position: relative;
+  background: yellow;
+}
+
+
+</style>
+
+<body>
+
+<p>The start of my final project</p>
+
+
+
+<p><button onclick="myMove()">Click Me</button></p> 
+
+<div id ="raceTrack">
+  <div id ="p1Img"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("p1Img");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}
+</script>
+
+
+
+
 </body>
 
 </html>
