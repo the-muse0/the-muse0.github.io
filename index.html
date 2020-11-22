@@ -20,16 +20,7 @@
 
 
 </head>
-<style>
-#raceTrack {
-  width: 2000px;
-  height: 1000px;
-  position: relative;
-  background: yellow;
-}
 
-
-</style>
 
 <body>
 
@@ -37,28 +28,10 @@
 
 
 
-<p><button onclick="myMove()">Click Me</button></p> 
+<p><button onclick="go()">Start</button></p> 
 
-<div id ="raceTrack">
-  <div id ="p1Img"></div>
-</div>
 
-<script>
-function myMove() {
-  var elem = document.getElementById("p1Img");   
-  var pos = 0;
-  var id = setInterval(frame, 5);
-  function frame() {
-    if (pos == 350) {
-      clearInterval(id);
-    } else {
-      pos++; 
-      elem.style.top = pos + "px"; 
-      elem.style.left = pos + "px"; 
-    }
-  }
-}
-</script>
+
 
 
 

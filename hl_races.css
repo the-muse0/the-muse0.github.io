@@ -22,7 +22,7 @@ body{
 }
 
 .stopLight {
-	background-color: blue;
+	background-color: purple;
 	border-radius: 50px;
 	display: flex;
 	align-items: center;
@@ -42,16 +42,17 @@ body{
 	width: 40px;
 	top: 5px;
 }
-/*
+
 .circle:after {
 	content:"";
 	border-right: 5px solid white;
 	border-radius: 50%;
-	width: 35px;
-	height: 40px;
+	top: 5px;
+	width: 30px;
+	height: 30px;
 	position: absolute;
 	
-}  */
+} 
 
 .circle.red {
 	background-color: red;
