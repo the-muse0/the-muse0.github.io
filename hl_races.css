@@ -12,7 +12,7 @@
 
 
 body{
-	background-color: black;
+	background-color: gray;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -31,7 +31,7 @@ body{
 	padding: 15px;
 	height: 200px;
 	width: 70px;
-
+	
 }
 
 .circle {
@@ -67,4 +67,11 @@ body{
 	background-color: green;
 	box-shadow: 0 0 20px 5px white;
 }
-	
+
+#vampire {
+	position: top;
+}
+#werewolf {
+	position: bottom;
+}
+
