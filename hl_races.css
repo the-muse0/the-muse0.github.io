@@ -68,10 +68,34 @@ body{
 	box-shadow: 0 0 20px 5px white;
 }
 
-#vampire {
-	position: top;
-}
-#werewolf {
-	position: bottom;
+#vampire{
+  width: 125px;
+  height: 125px;
+  position: relative;
+  animation-name: vampire;
+  animation-duration: 4s;
+  left: 0px;
+  top: 0px;
 }
 
+@keyframes vampire {
+  0%   {left:0px; top:0px;}
+  25%  {left:400px; top:0px;}
+
+}
+
+#werewolf{
+  width: 125px;
+  height: 125px;
+  position: relative;
+  animation-name: werewolf;
+  animation-duration: 4s;
+  left: 100px;
+  top: 100px
+}
+
+@keyframes werewolf {
+  0%   { left:0px; top:100px;}
+  25%  { left:400px; top:100px;}
+
+}

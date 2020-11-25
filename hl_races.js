@@ -31,3 +31,25 @@ currentLight.classList.add(currentLight.getAttribute('color'));
 
 	
  }
+ /*
+ function myMove() {
+  var elem = document.getElementById("vampire");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 250) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+ }
+*/
+
+
+
+
+
+
