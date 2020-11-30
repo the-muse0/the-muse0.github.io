@@ -84,13 +84,15 @@ body {
   top: 0px;
   border-radius: 50px;
   box-shadow: black 0px 0px 20px 10px;
+
 }
 
   #vampireWin {
-    position: relative;
+    position: absolute;
 	display: none;
 	border-radius: 50px;
 	box-shadow: black 0px 0px 20px 10px;
+	z-index: 4;
   }
 
 #werewolf{
@@ -101,12 +103,14 @@ body {
   top: 0px;
   border-radius: 50px;
   box-shadow: black 0px 0px 20px 10px;
+  
 }
 
  
   #werewolfWin {
-    position: relative;
+    position: absolute;
     display: none;
 	border-radius: 50px;
 	box-shadow: black 0px 0px 20px 10px;
+	z-index: 3;
   }
