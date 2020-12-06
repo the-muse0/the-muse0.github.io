@@ -30,18 +30,18 @@ function changeLight(){
   var id = setInterval(frame, 5)
   function frame() {
 	  
-	  if(posVampire >= 1000 && posWerewolf >= 1000)
+	  if(posVampire >= 1100 && posWerewolf >= 1100)
     {
       clearInterval(id);
       return;
     }
-	if(posVampire < 1000)
+	if(posVampire < 1100)
 	{
 		posVampire +=10*Math.random(); 
 		
-		if(posVampire >= 1000)
+		if(posVampire >= 1100)
 		{
-		posVampire = 1000;
+		posVampire = 1100;
 		if(!hasWinner){
 			hasWinner = true;
 		     elemVampireWin.style.display = 'unset';
@@ -50,12 +50,12 @@ function changeLight(){
       elemVampire.style.left = posVampire + 'px';
     }
 		
-if(posWerewolf < 1000)
+if(posWerewolf < 1100)
     {
       posWerewolf += 10*Math.random();
-      if(posWerewolf >= 1000)
+      if(posWerewolf >= 1100)
       {
-        posWerewolf = 1000;
+        posWerewolf = 1100;
         if(!hasWinner){
           hasWinner = true;
           elemWerewolfWin.style.display = 'unset';
