@@ -10,7 +10,7 @@ Final project CIS 370
   window.alert("Who will win the race between a Vampire and a Werewolf?"); 
 
 function changeLight(){
-  document.getElementById("red").scr="traffic-light-green.png"; 
+  document.getElementById("red").src="traffic-light-green.png"; 
 }
   
  function myMove() {
