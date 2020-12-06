@@ -7,10 +7,14 @@ Final project CIS 370
  * @author Helen Lee with help from W3Schools and Peter M through Stack OverFlow
  */
  
-  window.alert("Who will win the race between the Vampire vs Werewolf?"); 
- 
+  window.alert("Who will win the race between a Vampire and a Werewolf?"); 
 
+function changeLight(){
+  document.getElementById("red").scr="traffic-light-green.png"; 
+}
+  
  function myMove() {
+
   var elemVampire = document.getElementById("vampire");
   var elemWerewolf = document.getElementById("werewolf");
   var elemVampireWin = document.getElementById("vampireWin");
@@ -61,5 +65,4 @@ if(posWerewolf < 1000)
     }
   }
 }
-
 

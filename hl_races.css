@@ -3,8 +3,6 @@
 /*
 * Final project CIS 370
  * going to the races
- * Assistance with stop light from Florin Pop
- * Traffic Lights Simulator with CSS and JavaScript
  * Date - 11/14/20
  * @author Helen Lee
  */
@@ -27,61 +25,23 @@ body {
 	font-size: 1.5em;
 }
 
-.stopLight {
-	background-color: gray;
-	border-radius: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: row;
-	padding: 10px;
-	height: 30px;
-	width: 100px;
-	
-	
-	
+
+#red {
+width: 75px;
+height:75px;
 }
 
-.circle {
-	background-color: white;
-	border-radius: 50%;
-	position: relative;
-	height: 20px;
-	width: 20px;
-	top: 5px;
+#green {
+width: 75px;
+height:75px;
 }
-
-.circle:after {
-	content:"";
-	border-radius: 50%;
-
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	
-} 
-
-.circle.red {
-	background-color: red;
-	box-shadow: 0 0 20px 5px white;
-}
-
-.circle.yellow {
-	background-color: yellow;
-	box-shadow: 0 0 20px 5px white;
-}
-.circle.green {
-	background-color: green;
-	box-shadow: 0 0 20px 5px white;
-}
-
 
 #vampire{
   width: 125px;
   height: 125px;
   position: relative;
    left: 0px;
-  top: 0px;
+  top: 100px;
   border-radius: 50px;
   box-shadow: black 0px 0px 20px 10px;
 
@@ -100,7 +60,7 @@ body {
   height: 125px;
   position: relative;
   left: 0px;
-  top: 0px;
+  top: 150px;
   border-radius: 50px;
   box-shadow: black 0px 0px 20px 10px;
   
